@@ -23,7 +23,7 @@ export default function App() {
       alignItems: "center",
       background: "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
       padding: "20px",
-      fontFamily: "'Poppins', sans-serif"
+      fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
     }}>
       <div style={{
         width: "100%",
@@ -33,18 +33,18 @@ export default function App() {
         boxShadow: "0 10px 30px rgba(0, 0, 0, 0.1)",
         overflow: "hidden"
       }}>
-        {/* Encabezado con gradiente */}
+        {/* Encabezado */}
         <div style={{
           background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
           color: "white",
           padding: "25px",
           textAlign: "center"
         }}>
-          <h2 style={{
+          <h1 style={{
             margin: 0,
             fontSize: "28px",
             fontWeight: "600"
-          }}>Gestión de Clientes</h2>
+          }}>Gestión de Clientes</h1>
           <p style={{
             margin: "8px 0 0",
             opacity: 0.9,
@@ -121,8 +121,6 @@ export default function App() {
               transition: "all 0.3s",
               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)"
             }}
-            onMouseOver={(e) => e.target.style.opacity = "0.9"}
-            onMouseOut={(e) => e.target.style.opacity = "1"}
           >
             Agregar Cliente
           </button>
